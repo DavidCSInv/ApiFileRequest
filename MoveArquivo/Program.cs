@@ -6,11 +6,13 @@ string[] filesGeneric = Directory.GetFiles(directoryOrig, $"{fileNamePattern}.xl
 
 CriaTela();
 
+//banana
+
 if (filesGeneric.Length > 0)
 {
     Console.WriteLine("Arquivo Encontrado - Transferindo");
     try
-        {
+    {
         foreach (string fileOrig in filesGeneric)
         {
             string fileCopy;
@@ -32,13 +34,13 @@ if (filesGeneric.Length > 0)
     }
 
     catch (Exception ex)
-        {
-            throw new ApplicationException("Erro: algo não correu como o planejado",ex);
-        }
+    {
+        throw new ApplicationException("Erro: algo não correu como o planejado", ex);
+    }
 }
 else
 {
-    Console.WriteLine("Não há arquivos com este nome" );
+    Console.WriteLine("Não há arquivos com este nome");
 }
 
 static void CriaTela()
