@@ -26,29 +26,18 @@
         public void UploadEspiritoSantos()
         {
             Console.WriteLine("Espirto Santos - Delta.");
-            Console.WriteLine("Fazendo Upload para o Servidor...");
-            Console.WriteLine("Subida concluida.");
-            Console.WriteLine("Subindo o tributo...");
-            Console.WriteLine("Subida finalizada.");
-            Console.WriteLine("Pressione enter para voltar ao inicio.");
+            Console.WriteLine("Começando o processo de subida da tributação...");
+
         }
         public void UploadMGxES()
         {
             Console.WriteLine("Espirto Santos - Inter MGxES.");
-            Console.WriteLine("Fazendo Upload para o Servidor...");
-            Console.WriteLine("Subida concluida.");
-            Console.WriteLine("Subindo o tributo...");
-            Console.WriteLine("Subida finalizada.");
-            Console.WriteLine("Pressione enter para voltar ao inicio.");
+            Console.WriteLine("Começando o processo de subida da tributação...");
         }
         public void UploadESxMG()
         {
             Console.WriteLine("Espirto Santos - Inter ESxMG.");
-            Console.WriteLine("Fazendo Upload para o Servidor...");
-            Console.WriteLine("Subida concluida.");
-            Console.WriteLine("Subindo o tributo...");
-            Console.WriteLine("Subida finalizada.");
-            Console.WriteLine("Pressione enter para voltar ao inicio.");
+            Console.WriteLine("Começando o processo de subida da tributação...");
         }
     }
 }
