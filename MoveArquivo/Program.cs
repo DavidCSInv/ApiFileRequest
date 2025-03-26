@@ -1,59 +1,85 @@
-﻿string fileNamePattern = "*Delta*";
-var directoryOrig = @$"C:\Movido arquivo\Delta";
-var fileDest = @"C:\Movido arquivo\e11.xlsx";
-var directoryCopy = @"C:\Movido arquivo\Copia";
-string[] filesGeneric = Directory.GetFiles(directoryOrig, $"{fileNamePattern}.xlsx", SearchOption.AllDirectories);
+﻿using MoveArquivo.Classes;
 
-CriaTela();
 
-//banana
+#region Parametros de iniciamento
+Render render = new();
 
-if (filesGeneric.Length > 0)
+var filePaterns = new Dictionary<int, string>
 {
-    Console.WriteLine("Arquivo Encontrado - Transferindo");
-    try
+    {1,"*Delta*" },
+    {2,"*Inter*" }
+};
+
+var directoryOrig = @$"P:";
+var delta = "e11.xlsx";
+var inter = "tinter01.xlsx";
+
+var fileDest = @"C:\Carga\";
+var directoryCopy = @"C:\Carga\Copia";
+
+#endregion
+Render.RenderScreen();
+int option = int.Parse(Console.ReadLine());
+
+switch (option)
+{
+    case 1:
+        render.UploadMinasGerais();
+        break;
+    case 2:
+        render.UploadEspiritoSantos();
+        FileUpload(directoryOrig, fileDest, directoryCopy, filePaterns[1]);
+        break;
+    case 3:
+        render.UploadMGxES();
+        FileUpload(directoryOrig, fileDest, directoryCopy, filePaterns[2]);
+        break;
+    case 4:
+        render.UploadESxMG();
+        FileUpload(directoryOrig, fileDest, directoryCopy, filePaterns[2]);
+        break;
+}
+
+void FileUpload(string directoryOrig, string FileDest, string directoryCopy, string filePaterns)
+{
+    string[] filesGeneric = Directory.GetFiles(directoryOrig, $"{filePaterns}.xlsx", SearchOption.AllDirectories);
+
+    if (filesGeneric.Length > 0)
     {
-        foreach (string fileOrig in filesGeneric)
+        try
         {
-            string fileCopy;
-            int copyNumber = 1;
-
-            File.Copy(fileOrig, fileDest, true);
-
-            do
+            foreach (string fileOrig in filesGeneric)
             {
-                fileCopy = Path.Combine(directoryCopy, $"Delta{copyNumber}.xlsx");
-                copyNumber++;
-            } while (File.Exists(fileCopy));
+                string fileCopy;
+                int copyNumber = 1;
 
-            File.Copy(fileOrig, fileCopy);
-            File.Delete(fileOrig);
-            Console.WriteLine("Arquivo Movido com Sucesso");
+                File.Copy(fileOrig, fileDest, true);
+
+                do
+                {
+                    if (!Directory.Exists(directoryCopy))
+                    {
+                        Directory.CreateDirectory(directoryCopy);
+                    }
+
+                    fileCopy = Path.Combine(directoryCopy, $"Delta{copyNumber}.xlsx");
+                    copyNumber++;
+                } while (File.Exists(fileCopy));
+
+                File.Copy(fileOrig, fileCopy);
+                File.Delete(fileOrig);
+                Console.WriteLine("Arquivo Movido com Sucesso");
+            }
+
         }
 
+        catch (Exception ex)
+        {
+            throw new ApplicationException("Erro: algo não correu como o planejado", ex);
+        }
     }
-
-    catch (Exception ex)
+    else
     {
-        throw new ApplicationException("Erro: algo não correu como o planejado", ex);
+        Console.WriteLine("Não há arquivos com este nome");
     }
-}
-else
-{
-    Console.WriteLine("Não há arquivos com este nome");
-}
-
-static void CriaTela()
-{
-    Console.WriteLine("\t\t\t-----------------------------------------------------\n\t\t\t" +
-                      "|                                                   |\n\t\t\t" +
-                      "|              ESCOLHA O A SUA OPÇÃO                |\n\t\t\t" +
-                      "|                                                   |\n\t\t\t" +
-                      "|           1 - Delta                               |\n\t\t\t" +
-                      "|           2 - Inter MG - ES                       |\n\t\t\t" +
-                      "|           3 - Inter ES - MG                       |\n\t\t\t" +
-                      "|           4 - Minas Gerais                        |\n\t\t\t" +
-                      "|                                                   |\n\t\t\t" +
-                      "\"----------------------------------------------------");
-    Console.ReadLine();
 }
