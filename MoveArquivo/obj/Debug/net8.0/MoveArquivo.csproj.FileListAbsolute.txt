@@ -1,0 +1,14 @@
+C:\Users\david\source\repos\MoveArquivo\MoveArquivo\bin\Debug\net8.0\MoveArquivo.exe
+C:\Users\david\source\repos\MoveArquivo\MoveArquivo\bin\Debug\net8.0\MoveArquivo.deps.json
+C:\Users\david\source\repos\MoveArquivo\MoveArquivo\bin\Debug\net8.0\MoveArquivo.runtimeconfig.json
+C:\Users\david\source\repos\MoveArquivo\MoveArquivo\bin\Debug\net8.0\MoveArquivo.dll
+C:\Users\david\source\repos\MoveArquivo\MoveArquivo\bin\Debug\net8.0\MoveArquivo.pdb
+C:\Users\david\source\repos\MoveArquivo\MoveArquivo\obj\Debug\net8.0\MoveArquivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\MoveArquivo\MoveArquivo\obj\Debug\net8.0\MoveArquivo.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\MoveArquivo\MoveArquivo\obj\Debug\net8.0\MoveArquivo.AssemblyInfo.cs
+C:\Users\david\source\repos\MoveArquivo\MoveArquivo\obj\Debug\net8.0\MoveArquivo.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\MoveArquivo\MoveArquivo\obj\Debug\net8.0\MoveArquivo.dll
+C:\Users\david\source\repos\MoveArquivo\MoveArquivo\obj\Debug\net8.0\refint\MoveArquivo.dll
+C:\Users\david\source\repos\MoveArquivo\MoveArquivo\obj\Debug\net8.0\MoveArquivo.pdb
+C:\Users\david\source\repos\MoveArquivo\MoveArquivo\obj\Debug\net8.0\MoveArquivo.genruntimeconfig.cache
+C:\Users\david\source\repos\MoveArquivo\MoveArquivo\obj\Debug\net8.0\ref\MoveArquivo.dll

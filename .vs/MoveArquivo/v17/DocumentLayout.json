@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MoveArquivo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95A8A367-F25F-46AD-9B51-6C1E8692CB27}|MoveArquivo\\MoveArquivo.csproj|c:\\movearquivo\\movearquivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95A8A367-F25F-46AD-9B51-6C1E8692CB27}|MoveArquivo\\MoveArquivo.csproj|solutionrelative:movearquivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95A8A367-F25F-46AD-9B51-6C1E8692CB27}|MoveArquivo\\MoveArquivo.csproj|c:\\movearquivo\\movearquivo\\classes\\parametros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95A8A367-F25F-46AD-9B51-6C1E8692CB27}|MoveArquivo\\MoveArquivo.csproj|solutionrelative:movearquivo\\classes\\parametros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Parametros.cs",
+              "DocumentMoniker": "C:\\MoveArquivo\\MoveArquivo\\Classes\\Parametros.cs",
+              "RelativeDocumentMoniker": "MoveArquivo\\Classes\\Parametros.cs",
+              "ToolTip": "C:\\MoveArquivo\\MoveArquivo\\Classes\\Parametros.cs",
+              "RelativeToolTip": "MoveArquivo\\Classes\\Parametros.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T21:16:01.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MoveArquivo\\MoveArquivo\\Program.cs",
+              "RelativeDocumentMoniker": "MoveArquivo\\Program.cs",
+              "ToolTip": "C:\\MoveArquivo\\MoveArquivo\\Program.cs",
+              "RelativeToolTip": "MoveArquivo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T20:07:32.137Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
