@@ -4,6 +4,7 @@ This is a pure C# Console Application designed to process product data through e
 The app communicates with Linux servers via file transfer and interacts with third-party APIs for data processing.
 
 🛠️ Features
+
 -Manual Processing (Type 1):
  Allows direct product code input through the console.
 
