@@ -20,6 +20,7 @@ The app communicates with Linux servers via file transfer and interacts with thi
      Search for matching files, upload them to a server, and send relevant data to external APIs.
 
 ⚙️ Technologies Used
+
   .NET C# (Console App)
   SSH/SFTP (e.g., via SSH.NET) for Linux server file uploads
   HttpClient for third-party API requests
