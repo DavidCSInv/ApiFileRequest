@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveArquivo", "MoveArquivo\MoveArquivo.csproj", "{95A8A367-F25F-46AD-9B51-6C1E8692CB27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiFileRequest", "MoveArquivo\ApiFileRequest.csproj", "{95A8A367-F25F-46AD-9B51-6C1E8692CB27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics;
 using System.Text;
 using System.Text.Json;
-using static MoveArquivo.Classes.Render;
+using static ApiFileRequest.Classes.Render;
 
-namespace MoveArquivo.Classes
+namespace ApiFileRequest.Classes
 {
     public class Request
     {

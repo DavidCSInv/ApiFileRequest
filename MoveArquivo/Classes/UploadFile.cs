@@ -1,6 +1,6 @@
 ﻿using Renci.SshNet;
 
-namespace MoveArquivo.Classes
+namespace ApiFileRequest.Classes
 {
     public class UploadFile
     {
