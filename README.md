@@ -22,9 +22,13 @@ The app communicates with Linux servers via file transfer and interacts with thi
 ⚙️ Technologies Used
 
   .NET C# (Console App)
+
   SSH/SFTP (e.g., via SSH.NET) for Linux server file uploads
+
   HttpClient for third-party API requests
+
   Regex for file pattern recognition
+
   Console I/O for user interaction
 
 🐞 Known Bugs & Limitations
